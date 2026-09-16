@@ -9,6 +9,6 @@ The script runs only once and writes a file last_posted.txt to the directory it'
 
 In order to have it running "all the time" I suggest using something like a scheduled task in Windows or crontab in Linux setup like this:
 
-*/5 * * * * python3 /home/user/rss.py
+```*/5 * * * * python3 /home/user/rss.py```
 
 which will run the script every 5 minutes
